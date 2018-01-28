@@ -1,0 +1,106 @@
+
+
+
+Qu’est-ce que Lorem Ipsum ?
+
+
+
+«La composition est magnifique, mais pourquoi je n’arrive pas à lire ce qui est écrit?» «C’est exactement ce que je voulais… sauf que j’ai peur que les gens n’y comprennent rien!»…ça vous dit quelque chose?
+
+
+
+Qu’est-ce que Lorem Ipsum?
+
+
+
+Le faux texte, ou texte de remplissage communément appelé Lorem ipsum, est un texte volontairement sans signification, destiné à tester l’aspect esthétique d’un document. Utilisé lors de la composition et de la mise en page d’une maquette afin de reproduire de façon grossière, mais efficace, le “gris typographique”, il permet ainsi une juste appréciation visuelle du résultat final. Le Lorem Ipsum a pour avantage d’utiliser des mots de longueur variable, tout comme dans un contenu réel simulant par le fait même, une occupation normale des espaces typographiques.
+
+
+
+D’où provient-il?
+
+
+
+Contrairement à ce que bien des gens pensent, le Lorem Ipsum n’est pas simplement du texte aléatoire. Il trouve en fait ses racines dans une oeuvre de la littérature latine classique (Traité sur la théorie de l’éthique, un ouvrage très populaire pendant la Renaissance) datant de 45 av. J.-C. (oui oui, AVANT Jésus Christ!). Il est donc nettement plus âgé que nous tous, le rendant vieux de 2000 ans!
+
+
+
+
+Lorem Ipsum standard, utilisé depuis 1500 (après J.-C.)
+
+
+
+
+
+«?Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.»
+
+
+
+
+
+Lorem Ipsum, tiré de l’ouvrage original (45 avant J.-C.)
+
+
+
+
+
+«Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt….»
+
+
+
+
+
+Qu’est-ce que Lorem Ipsum original?
+
+
+
+
+
+«Pour vous faire mieux connaitre d’où vient l’erreur de ceux qui blâment la volupté, et qui louent en quelque sorte la douleur, je vais entrer dans une explication plus étendue, et vous faire voir tout ce qui a été dit là-dessus par l’inventeur de la vérité, et, pour ainsi dire, par l’architecte de la vie heureuse.»
+
+
+
+Des variantes amusantes
+
+
+
+
+Il existe une panoplie de variantes plus amusantes les unes que les autres du Lorem ipsum couramment utilisé… Mais gare à vous!… S’y glissent parfois quelques mots coquins qui pourraient déplaire aux plus curieux qui prendront le temps de lire!
+
+
+
+
+
+Bacon ipsum
+
+
+
+
+
+«Bacon ipsum dolor amet venison hamburger boudin, shoulder tri-tip cow sirloin shank tenderloin meatloaf chicken bresaola short ribs filet mignon. Meatloaf leberkas beef bresaola spare ribs…»
+
+
+
+
+
+Cupcake ipsum
+
+
+
+
+
+«Jelly ice cream halvah powder biscuit. Lemon drops gingerbread muffin. Muffin gummies unerdwear.com jelly-o sweet roll candy. Sweet tootsie roll pie oat cake cheesecake. Gummies sesame snaps tiramisu icing powder candy…»
+
+
+
+
+
+Tuna ipsum
+
+
+
+
+
+«Barbeled houndshark stargazer swordfish ocean sunfish bangus butterflyfish false moray lefteye flounder, sand dab. John dory largenose fish smoothtongue North American darter. Plownose chimaera black bass snoek nibbler rudderfish barb fangtooth sauger; glowlight danio…»
+
+Alors, rassurez-vous la prochaine fois que vous recevrez une maquette de votre fournisseur préféré! Le texte est effectivement incompréhensible pour la plupart d’entre nous! Mais sachez qu’il y a une bonne raison qui se cache derrière son utilisation!

@@ -1,0 +1,1240 @@
+﻿		/* Pour CENTRER votre page dans body */
+		
+		Fichier CSS ( avec extension .css) : 
+		
+			header { width:960px; margin: 0 auto; }
+			nav { width:960px; margin: 0 auto; }
+			section { width:960px; margin: 0 auto; }
+			article { width:960px; margin: 0 auto; }
+			footer { width:960px; margin: 0 auto; }
+			div { width:960px; margin: 0 auto; }
+			
+			#Id-pour-centrer-horrizontalement0 { width:960px; margin: 0 auto; }
+			.Class-pour-centrer-horrizontalement0 { width:960px; margin: 0 auto; }
+		
+			#Id-pour-centrer-horrizontalement1 { width:960px; padding: 0 auto; }
+			
+			#Id-pour-centrer-horrizontalement2 { display:inline-block; text-align:center; }
+			#Id-pour-centrer-horrizontalement3 { display:inline-block; align-content:center; }
+			#Id-pour-centrer-horrizontalement4 { align-items:center; }
+			#Id-pour-centrer-horrizontalement5 { align-self:center; }
+			#Id-pour-centrer-horrizontalement5 { justify-content:center; }
+						
+			#Id-pour-centrer-vertical1 {vertical-align:text-top;}
+			#Id-pour-centrer-vertical1 {vertical-align:text-middle;}
+			#Id-pour-centrer-vertical1 {vertical-align:text-bottom;}
+			
+			
+
+			
+		/* Fichier HTML : 
+			
+			<html>
+				<head>
+					...
+					...
+					...
+				</head>
+				<body >
+					<div id="Id-pour-centrer-horrizontalement0">
+						<h1> TITRE1 </h1>
+						...
+						...
+						...
+					</div>
+				</body >
+			</html>	
+		
+		 */
+
+		/* selecteur de balise HTML */
+		/*
+			Sélecteur de types : balise
+			Indiquer le nom d'une balise permet d'appliquer la règle CSS à un seul type de balise HTML. 
+			Priorité css de : 1 point
+			
+			exemple :   
+			
+				body     {  background-color: cyan; } 
+				body     {  background-image: url("./image1.jpg"); } 
+				body     {  background: red url('./images/fond.png') repeat 100px 200px ; } 
+				body     {  background: red url('http://www.dom.fr/images/fond.png') no-repeat top left ; } 
+				
+				h1       {  color: blue; font-size: 24px; font-weight: bold; text-align:center; } 
+				h2       {  color: blue; font-size: 22px; font-weight: bold; text-align:center; text-decoration:none; } 
+				h3       {  color: blue; font-size: 20px; font-weight: bold; text-align:center; text-decoration:underline; } 
+				h4       {  color: blue; font-size: 18px; font-weight: bold; text-align:center; text-decoration:underline; } 
+				h5       {  color: blue; font-size: 16px; font-weight: bold; text-align:center; text-decoration:underline; } 
+				h6       {  color: blue; font-size: 14px; font-weight: bold; text-align:center; text-decoration:underline; } 
+				
+				p        {  color: blue; font-size: 12px; font-style: normal; text-align:justify; font-family: "Times New Roman", Times, arial, serif; } 
+
+				strong   {  color: blue; font-size: 14px; font-weight: bold;} 
+				b        {  color: blue; font-size: 14px; font-weight: bold;} 
+				big      {  color: blue; font-size: 14px; font-weight: bold;} 
+
+				em       {  color: blue; font-size: 12px; font-style: italic;} 
+				i        {  color: blue; font-size: 12px; font-style: italic;} 
+
+				div      {  background-image: url("./image1.jpg"); color: blue; font-size: 12px; } 
+				span     {  color: blue; font-size: 12px; } 
+				br       {  color: blue; font-size: 12px; } 
+
+				header   {  color: blue; font-size: 12px; text-align:justify; font-family: vivaldi, Helvetica, fantasy, serif; } 
+				hgroup   {  color: blue; font-size: 12px; text-align:justify; font-family: vivaldi, Helvetica, fantasy, serif; } 
+				nav      {  color: blue; font-size: 12px; text-align:justify; font-family: vivaldi, Helvetica, fantasy, serif; } 
+				section  {  color: blue; font-size: 12px; text-align:justify; font-family: vivaldi, Helvetica, fantasy, serif; } 
+				article  {  color: blue; font-size: 12px; text-align:justify; font-family: vivaldi, Helvetica, fantasy, serif; } 
+				aside    {  color: blue; font-size: 12px; text-align:justify; font-family: vivaldi, Helvetica, fantasy, serif; } 
+				footer   {  color: blue; font-size: 12px; text-align:justify; font-family: vivaldi, Helvetica, fantasy, serif; } 
+
+				a        {  color: blue; font-size: 12px; font-style: normal; text-decoration:none; font-family: Courier, sans-serif; } 
+
+				img      {  width:200px; height:200px; } 
+
+				dl       {  color: blue; font-size: 12px; } 
+				dt       {  color: blue; font-size: 12px; } 
+				dd       {  color: blue; font-size: 12px; } 
+
+				ol       {  color: blue; font-size: 12px; } 
+				ul       {  color: blue; font-size: 12px; } 
+				li       {  color: blue; font-size: 12px; } 
+
+				table    {  color: blue; font-size: 12px; } 
+				caption  {  color: blue; font-size: 12px; text-align:justify; font-family: Times, Helvetica, serif; } 
+				tr       {  color: blue; font-size: 12px; } 
+				td       {  color: blue; font-size: 12px; text-align:justify; font-family: Times, Helvetica, serif; } 
+				th       {  color: blue; font-size: 12px; text-align:justify; font-family: Times, Helvetica, serif; } 
+
+				form     {  color: blue; font-size: 12px; } 
+				fieldset {  color: blue; font-size: 12px; } 
+				legend   {  color: blue; font-size: 12px; } 
+				label    {  color: blue; font-size: 12px; } 
+				input    {  color: blue; font-size: 12px; } 
+				button   {  color: blue; font-size: 12px; } 
+				select   {  color: blue; font-size: 12px; } 
+				optgroup {  color: blue; font-size: 12px; } 
+				option   {  color: blue; font-size: 12px; } 
+				textarea {  color: blue; font-size: 12px; text-align:center;} 
+			
+		 */
+
+		 
+		 
+		 
+		/* positionnement float et clear */
+		/*
+
+			float: right;  /* Flottant comme un glaçon */
+			clear: both;   /* interdit d'autre element flottant à droit et/ou à gauche */
+
+			/* width : largeur d'un block. height : hauteur d'un block.  */ 
+			
+			width: 960px;   /* Pour positionner et dimensionner un elemnt il faut qu'il ait une largeur */ 
+			height: 60%;
+		 */
+
+
+
+
+
+		/* propriétés de style CSS pour le texte */
+		/*
+			
+			Les unités de longueur :
+				em : hauteur de la police de caractère (
+				ex : hauteur du caractère x minuscule ('x')
+				px : taille d'un pixel 
+				cm : centimètres (1 cm = 10 mm)
+				mm : millimètres
+				in : inches (1 in = 2.54 cm)
+				pt : points (1 pt = 1/72 in)
+				pc : picas (1 pc = 12pt)
+				 % : Pourcentage
+				
+				
+				
+			Les unités de longueurs relatives :
+				em : la valeur de 'font-size' pour la police concernée
+				ex : la valeur de 'x-height' pour la police concernée
+				px : une quantité de pixels, en fonction de l'appareil de visualisation. 
+				
+			Exemple : 
+				H1 { margin: 0.5em } 
+				H1 { margin: 1ex }        
+				P  { font-size: 12px }    
+				
+				
+				
+			Les unités de longueurs absolues : 
+				in : pouce -- un pouce (inch) est égal à 2,54 cm.
+				cm : centimètre
+				mm : millimètre
+				pt : point -- le point de CSS2 est égal à 1/72 de pouce.
+				pc : pica -- un pica est égal à 12 points. 
+				
+			Exemple : 
+				H1 { margin: 0.5in }      
+				H2 { line-height: 3cm }   
+				H3 { word-spacing: 4mm }  
+				H4 { font-size: 12pt }    
+				H4 { font-size: 1pc }   
+
+			*/				
+
+
+				
+
+			/*	font-size : taille de la police de caractères. préférer "em" et "%".*/
+			font-size : 1em;
+
+			/*color : couleur de la police de caractères.*/
+			color : #ffffff;
+
+			/* font-style : style de la police.*/
+			font-style : italic;
+
+
+			/* font-weight : epaisseur de la police.*/
+			font-weight : bold;
+
+			/* text-decoration : soulignement ou surlignement.  */ 
+			text-decoration : none;
+			text-decoration : underline;
+
+			/* font-variant : affichage en petites majuscules.  */ 
+			font-variant : small-caps;
+
+			/* text-transform : mise en majuscules/minuscules.  */ 
+			text-transform : uppercase;
+
+			/* text-align : alignement du texte.  */ 
+			text-align : center;
+
+			/* text-indent : décalage de la première ligne du texte.  */ 
+			text-indent : 100%;
+
+
+			/* line-height : hauteur des caractères.  */ 
+			line-height : 100%;
+
+			/* letter-spacing : espacement entre caractères.  */ 
+			letter-spacing : 100%;
+
+			/*	word-spacing : espacement entre mots. */
+			word-spacing : 100%;
+
+
+
+
+
+			.typographie {
+
+			/*	font-size : taille de la police de caractères. préférer "em" et "%".*/
+				font-size : 1em ;
+				font-size : 12px ;
+				font-size : 100% ;
+				font-size : 12pt ;
+				font-size : 12px ;
+
+
+				/*color : couleur de la police de caractères.*/
+				color : white ;
+				color : #ffffff ;
+				color : rgb(255,255,255) ;
+				color : rgba(255,255,255,1) ;
+				color : rgba(255,255,255,0.5) ;
+				color : transparent ;
+
+
+				/* font-style : style de la police.*/
+				font-style : normal ;
+				font-style : italic ;
+				font-style : oblique ;
+
+
+				/* font-weight : epaisseur de la police.*/
+				font-weight : normal ;
+				font-weight : bold ;
+				font-weight : bolder ;
+
+
+				/* text-decoration : soulignement ou surlignement.  */ 
+				text-decoration : none ;
+				text-decoration : underline ;
+				text-decoration : line-throught ;
+				text-decoration : overline ;
+
+
+				/* font-variant : affichage en petites majuscules.  */ 
+				font-variant : normal ;
+				font-variant : small-caps ;
+
+
+				/* text-transform : mise en majuscules/minuscules.  */ 
+				text-transform : none ;
+				text-transform : capitalize ;
+				text-transform : uppercase ;
+				text-transform : lowercase ;
+
+
+				/* text-align : alignement du texte.  */ 
+				text-align : left ;
+				text-align : center ;
+				text-align : right ;
+				text-align : justify ;
+
+
+				/* text-indent : décalage de la première ligne du texte.  */ 
+				text-indent : 5px ;
+				text-indent : 5em ;
+				text-indent : 100% ;
+
+
+				/* line-height : hauteur des caractères.  */ 
+				line-height : normal ;
+				line-height : 1em ;
+				line-height : 12px ;
+				line-height : 100% ;
+				line-height : 12pt ;
+				line-height : 12px ;
+
+
+				/* letter-spacing : espacement entre caractères.  */ 
+				letter-spacing : normal ;
+				letter-spacing : 12px ;
+				letter-spacing : 100% ;
+				letter-spacing : 12pt ;
+				letter-spacing : 12px ;
+
+			/*	word-spacing : espacement entre mots. */
+				word-spacing : normal ;
+				word-spacing : 12px ;
+				word-spacing : 100% ;
+				word-spacing : 12pt ;
+				word-spacing : 12px ;
+				
+			/*	font-family : police de caractères. */
+				font-family : arial;
+				font-family : "Times New Roman";
+				font-family : "Times New Roman", Georgia, Times, arial, cursive, fantasy, monospace, sans-serif, serif;
+			}
+			
+			
+		*/
+
+
+
+
+		/* propriétés de style CSS pseudo-element */
+		/*
+		
+			a { color: lightblue; }            /* Lien non visité */
+
+			a:link {    color: navy; }            /* Lien non visité et non utilisé */
+			a:hover {   color: purple; }         /* Lien survolé ou ayant le focus */
+			a:focus {   color: purple; }         /* Lien survolé ou ayant le focus */
+			a:active {  color: yellow; }        /* Lien actif (état cliqué) */
+			a:visited { color: pink; }         /* Lien visité */
+
+			.classelien1:link {    background-color: blue; }            /* Lien non visité */
+			.classelien1:hover {   background-color: red; }         /* Lien survolé ou ayant le focus */
+			.classelien1:focus {   background-color: red; }         /* Lien survolé ou ayant le focus */
+			.classelien1:active {  background-color: green; }        /* Lien actif (état cliqué) */
+			.classelien1:visited { background-color: purple; }         /* Lien visité */
+
+			.classelien2 {       background-color: blue; }            /* Lien non visité */
+			.classelien2:hover { background-color: red; }         /* Lien survolé ou ayant le focus */
+
+			#idlien1 a:link {    background-image: url(./image1.jpg); }            /* Lien non visité */
+			#idlien1 a:hover {   background-image: url(./image2.jpg); }         /* Lien survolé ou ayant le focus */
+			#idlien1 a:focus {   background-image: url(./image2.jpg); }         /* Lien survolé ou ayant le focus */
+			#idlien1 a:active {  background-image: url(./image3.jpg); }}        /* Lien actif (état cliqué) */
+			#idlien1 a:visited { background-image: url(./image1.jpg); }         /* Lien visité */
+
+			#idlien2 a {       
+						display:block;
+						width: 70px;
+						height: 100px;
+						background-image: url(./image1.jpg); 
+			}
+			#idlien2 a:hover { background-image: url(./image2.jpg); }         /* Lien survolé ou ayant le focus */
+			#idlien2 a:active {  background-image: url(./image3.jpg); }}        /* Lien actif (état cliqué) */
+
+			input[button]:link {    color: navy; }            /* Lien non visité */
+			input[button]:hover {   color: purple; }         /* Lien survolé ou ayant le focus */
+			input[button]:focus {   color: purple; }         /* Lien survolé ou ayant le focus */
+			input[button]:active {  color: yellow; }        /* Lien actif (état cliqué) */
+			input[button]:visited { color: pink; }         /* Lien visité */
+
+
+					
+					
+		 */
+
+
+
+
+
+		/* propriétés de style CSS pour les listes */
+		/*
+
+			/* list-style : réglage globale d'une liste.  */ 
+			list-style: square outside url(toto.jpg);
+
+			/* list-style-type : type de liste.  */ 
+			list-style-type: none;
+			list-style-type: disc;
+			list-style-type: circle;
+			list-style-type: square;
+			list-style-type: decimal;
+			list-style-type: lower-roman;
+			list-style-type: upper-roman;
+			list-style-type: lower-alpha;
+			list-style-type: upper-alpha;
+			list-style-type: armenian;
+			list-style-type: katakana
+			list-style-type: ...etc.
+
+			/*list-style-position : position du marqueur de liste dans la liste ou hors de la liste*/
+			list-style-position: outside; /*  (outside est plus normal).  */
+
+			/* list-style-image : image pour remplacer le marqueur de la liste.  */ 
+			list-style-image: url(images/point.jpg);
+			
+
+
+
+
+
+			.liste {
+
+
+			/* list-style-type : type de liste.  */ 
+			list-style-type: none ;
+			list-style-type: disc ;
+			list-style-type: circle ;
+			list-style-type: square ;
+			list-style-type: decimal ;
+			list-style-type: upper-roman ;
+			list-style-type: lower-alpha ;
+			list-style-type: upper-alpha ;
+
+
+			/*list-style-position : position du marqueur de liste dans la liste ou hors de la liste*/
+			list-style-position: outside ; /*  (outside est plus normal).  */
+			list-style-position: inside ;
+
+
+			/* list-style-image : image pour remplacer le marqueur de la liste.  */ 
+			list-style-image: none ;
+			list-style-image: url(images/point.jpg) ;
+
+			/* list-style : réglage globale d'une liste.  */ 
+			list-style: circle outside url(toto.jpg) ;
+		}
+
+
+
+
+
+		 */
+
+
+
+
+
+		/* propriétés de style CSS pour les blocs et bordures */
+			/* margin : réglage des marges autour des blocs.  */
+			
+		p {
+			
+			margin: 1px;                /* 1px de chaque cotés */
+			
+			margin: 10px 20px;          /* la premiere valeur pour le Haut et bas : 10px,  la deuxieme valeur pour la droite et gauche 20px */
+			margin: 0px auto;           /* Centré à droite et à gauche */
+			
+			margin: 1px 2px 3px;    	/* la premiere valeur pour le Haut : 1px,  la deuxieme valeur pour le bas : 2px,  la troisieme valeur pour la droite et gauche 3px */
+			
+			margin: 1px 2px 3px 4px;    /* margin dans l'ordre : haut, droite, bas, gauche */
+			
+			margin-top: 1px;  
+			margin-left: 2px;  
+			margin-bottom: 3px;  
+			margin-right: 4px;
+			
+			
+			/* padding : réglage des marges à l'intérieur des blocs.  */ 
+			padding: 1px;                /* 1px de chaque coté */
+			padding: 10px 20px;           /* la premiere valeur pour le Haut et bas : 10px,  la deuxieme valeur pour la droite et gauche 20px */
+			padding: 0px auto;           /* Centré à droite et à gauche */
+			padding: 1px 2px 3px;    	 /* la premiere valeur pour le Haut : 1px,  la deuxieme valeur pour le bas : 2px,  la troisieme valeur pour la droite et gauche 3px */
+			padding: 1px 2px 3px 4px;    /* padding dans l'ordre : haut, droite, bas, gauche */
+			
+			padding-top: 1px;  
+			padding-left: 1px;  
+			padding-bottom: 2px;  
+			padding-right: 2px;  
+
+			/* border : affichage global d'une bordure.  */ 
+			border: 5px dotted green;         /* border: width style color; */
+
+			/* border-width : largeur de la bordure.  */ 
+			border-width: 1px 2px 3px 4px;    /* bordure haut, droite, bas, gauche */
+
+			/* border-style : type de la bordure.  */ 
+			border-style: solid;
+
+			/* border-color : couleur de la bordure.  */ 
+			border-color: #ff0000;
+
+			/* cursor : type de pointeur affiché pour la souris.  */ 
+			cursor: auto;
+			
+			}
+
+
+
+
+
+			.bloc-bordure{
+
+			/* margin : réglage des marges autour des blocs.  */
+			
+			margin: 15px ; /* 15px de chaque coté */
+			
+			margin: 10px 20px ; /* haut et bas : 10px, droite et gauche 20px */
+			margin: 0px auto; /* centré à droite et à gauche */
+			
+			margin: 1px 2px 3px 4px ; /* marge haut, droite, bas, gauche */
+			margin: ; /* marge haut, droite, bas, gauche */
+			
+			margin-top: 15px; 
+			margin-right: 15px; 
+			margin-bottom: 15px;
+			margin-left: 15px;
+
+
+			/* padding : réglage des marges à l'intérieur des blocs.  */ 
+			
+			padding: 1em ; /* 1em de chaque coté */
+			
+			padding: 10px 20px ; /* haut et bas : 10px, droite et gauche 20px */
+			padding: 10px auto ; /* centré à droite et à gauche */
+			
+			padding: 1px 2px 3px 4px ; /* padding haut, droite, bas, gauche */
+			
+			padding-top: 10%; 
+			padding-right: 30px; 
+			padding-bottom: 20px;
+			padding-left: 40px;
+
+
+			/* border : affichage global d'une bordure.  */ 
+			border: 5px dotted green ;
+
+
+			/* border-width : largeur de la bordure.  */ 
+			border-width: 5px ;
+			border-width: 0.3em ;
+			border-width: 1px 2px 3px 4px ; /* bordure haut, droite, bas, gauche */
+			border-width-top: 1px ;
+
+
+			/* border-color : couleur de la bordure.  */ 
+			border-color: red ;
+			border-color: #ff0000 ;
+			border-color: rgb(255,0,0) ;
+
+
+			/* border-style : type de la bordure.  */ 
+			border-style: none ;
+			border-style: solid ;
+			border-style: dotted ;
+			border-style: dashed ;
+			border-style: inset ;
+			border-style: outset ;
+			border-style: double ;
+			border-style: groove ;
+			border-style: ridge ;
+
+
+			/* cursor : type de pointeur affiché pour la souris.  */ 
+			cursor: auto ;
+			cursor: pointer ;
+			cursor: defaut ;
+			cursor: crosshair ;
+			cursor: move ;
+			cursor: help ;
+			cursor: wait ;
+		}
+
+
+
+
+
+	
+		 */
+
+
+
+
+
+		/* propriétés de style CSS pour les tableaux */
+		/*
+				
+			/* border-collapse : séparation ou collage des cellules du tableau (espace ou non entre les cellules).  */ 
+			border-collapse: separate;
+
+			/* border-spacing : taille de l'espacement entre les cellules (si on est en "border-collapse: separate;").  */ 
+			border-spacing: 3px;
+
+			/* empty-cells : gère l'affichage ou non d'une cellule si elle est vide.  */ 
+			empty-cells : hide;
+
+			/* caption-side : placement de la légende du tableau.  */ 
+			caption-side: top;
+
+			/* vertical-align : alignement vertical dans la cellule d'un tableau.  */ 
+			vertical-align: middle;
+
+			/* table-layout : technique de calcul des la taille des cellules du tableau.  */ 
+			table-layout: auto;
+			
+			
+
+
+
+
+
+			.tableaux{
+
+			/* border-collapse : séparation ou collage des cellules du tableau (espace ou non entre les cellules).  */ 
+			border-collapse: separate;
+			border-collapse: collapse;
+
+
+			/* border-spacing : taille de l'espacement entre les cellules (si on est en "border-collapse: separate;").  */ 
+			border-spacing: 3px;
+			border-spacing: 1em;
+
+
+			/* empty-cell : gère l'affichage ou non d'une cellule si elle est vide.  */ 
+			empty-cell : hide;
+			empty-cell : show;
+
+
+			/* caption-side : placement de la légende du tableau.  */ 
+			caption-side: top;
+			caption-side: right;
+			caption-side: bottom;
+			caption-side: left;
+
+
+			/* vertical-align : alignement vertical dans la cellule d'un tableau.  */ 
+			vertical-align: baseline;
+			vertical-align: top;
+			vertical-align: middle;
+			vertical-align: bottom;
+
+
+			/* table-layout : technique de calcul des la taille des cellules du tableau.  */ 
+			table-layout: auto;
+			table-layout: fixed;
+		}
+
+
+
+
+
+			
+		 */
+
+
+
+
+
+		/* propriétés de style CSS pour l'arrière-plan /*
+		/*
+
+			/* background : caractéristique globale d'un fond.  */ 
+			/* background: color url(image) repeat origin position;
+			background: red url(images/fond.png) no-repeat scroll center top;
+			background: red url(images/fond.png) no-repeat scroll 100px 300px;
+
+
+			/* background-color : couleur de fond.  */ 
+			background-color: #ff0000;
+
+			/* background-image : image de fond.  */ 
+			background-image: url('images/labelleimage.png');
+
+
+			/* background-repeat : répétition de l'image de fond.  */ 
+			background-repeat: no-repeat;
+
+
+			/* background-attachment : fixation de l'image sur le navigateur (contre le défilement).  */ 
+			background-attachment: scroll;
+
+			/* background-position : position de l'image sur le fond (x, y).  */ 
+			background-position: 5px 10px;
+			
+
+
+
+
+
+			.arrière-plans{
+
+			/* background : caractéristique globale d'un fond.  */ 
+			background: red url(images/fond.png) no-repeat scroll center top ;
+			background: red url(images/fond.png) no-repeat fixed center top ;
+			background: red url(images/fond.png) repeat-x 50% 50% ;
+			background: red url(images/fond.png) repeat-y 100px 100px ;
+			background: red url(images/fond.png) repeat 100px 200px ;
+
+
+			/* background-color : couleur de fond.  */ 
+			background-color: red ;
+			background-color: #ff0000 ;
+			background-color: rgb(255,0,0) ;
+
+
+			/* background-image : image de fond.  */ 
+			background-image: url(images/labelleimage) ;
+
+
+			/* background-repeat : répétition de l'image de fond.  */ 
+			background-repeat: repeat ;
+			background-repeat: repeat-x ;
+			background-repeat: repeat-y ;
+			background-repeat: no-repeat ;
+
+
+			/* background-attachment : fixation de l'image sur le navigateur (contre le défilement).  */ 
+			background-attachment: scroll ;
+			background-attachment: fixed ;
+
+
+			/* background-position : position de l'image sur le fond (x, y).  */ 
+			background-position: left top ;
+			background-position: center center ;
+			background-position: right bottom ;
+			background-position: 50% 50% ;
+			background-position: 5px 10px ;
+		}
+
+
+
+
+
+	
+		 */
+
+
+
+
+
+		/* propriétés de style CSS pour le positionnement */
+		/*
+			body {margin:0; padding:0px;} 
+			
+			header, hgroup, nav, section, article, aside, footer, div {border:5px; display:block;}
+			#wrapper { width:980px; margin: 0 auto; background-color: LightCyan; }
+			
+			header  {width:950px; margin: 0 auto; padding:0px;}
+			aside   {width:150px; margin:10px;  float:left;}
+			section {width:700px; margin:20px 150px 0 0; }
+			footer  {width:950px; margin: 0 auto; padding:0px;}
+			
+
+
+
+
+
+			.positionnement{
+
+			/* display : mode d'affichage (ou non) d'un bloc ou d'un élément.  */ 
+			display: none;
+			display: block;
+			display: inline;
+			display: inline-block ; /* correspond à un élément inline avec un comportement bloc (non w3c). compatible avec internet explorer, opéra et safari pour firefox < 2 utilise */
+			display: list-item ; /* comme de type block, mais précédé d'une puce comme dans une liste énumérative.*/
+
+
+			/* width : largeur d'un block. height : hauteur d'un block.  */ 
+			width: 0;
+			width: 400px;
+			width: 50em;
+			width: 60%;
+			min-width: 100px;
+			max-width: 100px;
+			height: 0;
+			height: 60%;
+			min-height: 100px;
+			max-height: 100px;
+
+
+			/* clear : pour obliger un bloc à se placer derriere un flottant. avec clear: vous pouvez interrompre le cours du texte pour en forcer la poursuite sous l'élément/le passage entouré. les données suivantes sont possibles:
+			
+			/* left : impose pour float:left la poursuite dessous.  */ 
+			
+			/* right : impose pour float:right la poursuite dessous.  */ 
+			
+			/* both : impose dans chaque cas la poursuite dessous.  */ 
+			
+			/* none : n'impose pas de poursuite dessous. (réglage normal).  */ 
+			
+			/* overflow (passage d'élément au contenu trop important)  */ 
+			
+			/* overflow : visible = l'élément sera agrandi de manière à ce que son contenu soit complètement visible dans tous les cas.  */ 
+			
+			/* overflow : hidden = l'élément sera coupé s'il dépasse les limites.  */ 
+			
+			/* overflow : scroll = l'élément sera coupé s'il dépasse les limites. le navigateur www doit pourtant proposer des barres de défilement, un peu comme dans une fenêtre cadre incorporée.  */ 
+			
+			/* overflow : auto = le navigateur web doit décider en cas de conflit, comment l'élément sera affiché. proposer des barres de défilement est également permis.
+
+
+			/* overflow-x, overflow-y : pour gérer le dépassement du contenu d'un objet en horizontal ou vertical.  */ 
+			overflow-x: auto ;
+			overflow-x: visible ;
+			overflow-y: hidden ;
+			overflow-y: scroll ;
+
+
+			/* z-index : hors static, permet de gérer l'empilement des blocs.  */ 
+			z-index: auto ;
+			z-index: 10 ;
+			z-index: 999 ;
+		}
+
+
+		*/
+
+
+
+
+		/* positionnement de BLOC pour un GABARIT */
+		/*
+			body {margin:0; padding:0px;} 
+			
+			header, hgroup, nav, section, article, aside, footer, div {border:5px; display:block;}
+			#wrapper { width:980px; margin: 0 auto; background-color: LightCyan; }
+			
+			header {width:950px; margin: 0 auto; padding:0px;}
+			menu   {width:750px; margin: 0 auto; padding:0px;}
+			h1, p  {margin:0 10px; padding:0px;} 
+			
+			aside   {width:150px; margin:10px;  float:left;}
+			section {width:700px; margin:20px 150px 0 0; }
+			
+			footer   {width:950px; margin: 0 auto; padding:0px;}
+			footer p {width:300px; margin: 20px auto 0 auto; }
+		 */
+
+
+
+
+
+		/* propriétés de style CSS pour les SPRITES ou FontIcone */
+		/*
+			Il s’agit de rassembler toutes vos petites images en une seule grosse et ,via la propriété background-position en css, de cibler l’image qui vous intéresse dans cet agglomérat d’images.
+			Cela permet de faire qu’une requête vers l’image au lieu de plusiers et d' améliore le temps de chargement de vos pages
+			
+			/*
+			#id1 {
+				background-image: url('./xxxx.jpg');
+				background-repeat: no-repeat ou repeat;;
+				background-position: xxxx px  xxxx px;
+				background-size: xxxx px  xxxx px;
+				padding: x px x px x px x px;
+			}
+			*/
+						
+			#pos1-logo { 
+				width: 171px; height: 65px; 
+				float: left;
+				background-image: url('./google.jpg');
+				background-repeat: no-repeat;  
+				background-position: left -60px; 
+				/*background-color:red;*/
+			} 
+			
+			#pos2-bouton { 
+				width: 32px; height: 35px; 
+				background-image: url('./google.jpg');
+				background-repeat: no-repeat;  
+				background-position: 0px -195px; 
+				/*background-color:yellow;*/
+			} 
+			
+			.pos3-puce1 li {
+				background-image: url('./google.jpg');
+				background-repeat: no-repeat;
+				background-position: -227px -345px;
+				padding-left: 20px;
+				/*background-color:yellow;*/
+			}
+			
+			.pos3-puce2 li {
+				background-image: url('./google.jpg');
+				background-repeat: no-repeat;
+				background-position: -150px -150px;
+				background-size: 150px 150px;
+				padding-left: 20px;
+				/*background-color:yellow;*/
+			}
+
+
+		 */
+
+
+
+
+
+		/* Style CSS pour faire un menu déroulant */
+		/*
+		
+			#menu ul { margin:0px; padding:0px; background-color:#05a; }                                                     /* Lien non visité */
+			#menu ul li { float:left; list-style-type:none; margin-right:10px; background-color:#55a; }                      /* Lien non visité */
+			#menu ul li a { color:#FF0000; text-decoration:none; display:block; width:100px; background-color:#a5a; }        /* Lien non visité */
+			#menu ul li a:hover { color:#FF00FF; text-decoration:underline; background-color:#0aa; }                         /* Lien survolé */
+			#menu ul li ul { display:none; background-color:#05a; } 
+			#menu ul li:hover ul { display:block; margin:0px; padding:0px; background-color:#0fa; } 
+			#menu ul li:hover ul li { float:none; background-color:#05f; } 
+			
+		 */
+
+
+
+
+
+		/* Logiciels de sprites /*
+		/*
+			
+			http://fr.spritegen.website-performance.org
+			http://www.floweringmind.com/sprite-creator/
+			http://draeton.github.io/stitches/
+			http://www.spritebox.net
+			http://spritecss.outils-webmaster.com
+			http://flag-sprites.com
+			
+			SpriteGenerator - spritegenerator.codeplex.com
+			Sprite Builder 1 - SpriteBuilder.com
+			Game Maker 8 - Mark Overmars
+			The Games Factory 2 - Clickteam
+			Allegro Sprite Editor
+			TexturePacker 0.95
+			
+		 */
+
+
+
+		/* Logiciels de Fonts Icones et Fonts -  Polices de caractères */
+		/*
+			
+			https://www.google.com/fonts/
+			https://edgewebfonts.adobe.com/
+			http://www.fontsquirrel.com/
+			http://www.dafont.com/
+			https://icomoon.io/
+			http://fontastic.me/
+			http://iconion.com/
+			http://weloveiconfonts.com/
+			http://fontello.com/
+			http://royaltutorial.com/ultimate-icon-package/
+			http://iconizer.net/
+			http://ConvertICO.org
+			http://favicon.ico
+			http://www.hypefortype.com/
+
+
+
+
+
+		logiciel de polices de caractères: 
+		
+			Eudcedit intégré à Windows
+			DoubleType.exe
+			Cygwin - http://www.cygwin.com/
+			SkyFonts - Fonts.com de googlefont
+			FontForge
+			Fontmatrix
+			FontLab Studio
+			FontExpert 2013
+			Font Creator
+			Jype
+			Opcion Font Viewer
+			Polices de caractères
+			Font Wrangler
+			Fony
+			X-Fonter
+			FontPage
+			VFonts
+			Icon Viewer
+			andLinux - andLinux.org
+			iconion.exe
+			Seanau Icon Toolkit - http://www.seanau.com
+
+
+
+
+
+		 */
+
+
+
+
+
+		/*		 
+				 
+		/* coin arrondi sur tout un bloc.  */ 
+				.ClasseCoinArrondi{ 
+					border-radius: 8px ;
+					-webkit-border-radius: 8px ;
+					-moz-border-radius: 8px ;
+					-khtml-border-radius: 8px ;
+				}
+
+
+
+		/* coin arrondi sur tout un bloc.  */ 
+				.ClasseCoinArrondiHaut{ 
+					border-radius: 8px 8px 0 0 ;
+					-moz-border-radius: 8px 8px 0 0 ;
+					-webkit-border-top-left-radius: 8px ;
+					-webkit-border-top-right-radius: 8px ;
+					-khtml-border-radius: 8px 8px 0 0 ;
+				}
+
+
+
+		/* ombrage décalé vers le bas et la droite, diffus de 6px d'une couleur grise.  */
+				.ClasseOmbrage{ 
+					box-shadow: 3px 3px 6px #444 ;
+					-moz-box-shadow: 3px 3px 6px #444 ;
+					-webkit-box-shadow: 3px 3px 6px #444 ;
+					-khtml-box-shadow: 3px 3px 6px #444 ;
+				}
+
+
+
+		/* rotation d'un bloc.  */
+				.ClasseRotation{ 
+					transform-origin: 50% 50%;
+					transform: scale(1.00) rotate(-5deg) ;
+					-moz-transform-origin: 50% 50%;
+					-moz-transform: scale(1.00) rotate(-5deg) ;
+					-webkit-transform-origin: 50% 50%;
+					-webkit-transform: scale(1.00) rotate(-5deg) ;
+				}
+
+
+
+
+
+		/* affichage en colonnes */
+				.column3
+					{
+					-moz-column-count:3; /* Firefox */
+					-webkit-column-count:3; /* Safari and Chrome */
+					-o-column-count:3; /* Opera mais ne marche pas encore */
+					column-count:3;
+				}
+
+
+
+
+
+		/* creation d'un dégradé de couleur */
+				.ClasseDegrade { 
+					/* exemple : background-image: linear-gradient( <angle>, couleur1, couleur2 );	*/					
+					background-image: -webkit-linear-gradient(70deg, red 10%, orange 30%, yellow 70%, red 90%);
+					background-image: -moz-linear-gradient(70deg, red 10%, orange 30%, yellow 70%, red 90%);
+					background-image: -ms-linear-gradient(70deg, red 10%, orange 30%, yellow 70%, red 90%);
+					background-image: -o-linear-gradient(70deg, red 10%, orange 30%, yellow 70%, red 90%);
+					background-image: linear-gradient(70deg, red 10%, orange 30%, yellow 70%, red 90%);
+				}
+
+
+
+
+
+		/* gestion du depassement de contenu */
+				.overflow2
+				{
+					width:12em; 
+					white-space:nowrap; 
+					border:1px solid #000000;
+
+					overflow:hidden; 
+					-moz-text-overflow:ellipsis; 
+					-webkit-text-overflow:ellipsis;
+					-o-text-overflow:ellipsis; 
+					text-overflow:ellipsis; 
+				}
+
+
+
+
+
+		/* transformation ou interpolation */
+				.ClasseTransform { 
+					-webkit-transform:  translate(50px,100px);
+					-moz-transform:  translate(50px,100px);
+					-ms-transform:  translate(50px,100px);
+					-o-transform:  translate(50px,100px);
+					transform:  translate(50px,100px);
+				}
+
+
+
+
+
+		/* transition */
+				.ClasseTransition { 
+					background:red;
+					transition:width 2s, height 2s;
+					-moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+					-webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+					-o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */	
+				}
+
+
+
+
+
+		/* transformation ou interpolation */
+				.ClasseTransition:hover { 
+					-webkit-transform: rotate(30deg);
+					-moz-transform: rotate(30deg);
+					-ms-transform: rotate(30deg);
+					-o-transform: rotate(30deg);
+					transform: rotate(30deg);
+				}
+
+
+
+
+
+		/* animation */
+				.ClasseAnimation{
+					width:100px;
+					height:100px;
+					background:red;
+					position: relative;
+					
+					/* 
+					animation: myfirst 5s infinite;
+					-moz-animation: myfirst 5s infinite; 
+					-webkit-animation: myfirst 5s infinite; 
+					-o-animation: myfirst 5s infinite; 
+					*/
+
+					animation-name: myfirst;
+					animation-duration: 5s;
+					animation-timing-function: ease;
+					animation-delay: 2s;
+					animation-iteration-count: infinite;
+					animation-direction: alternate;
+					animation-play-state: running;
+					/* Firefox: */
+					-moz-animation-name: myfirst;
+					-moz-animation-duration: 5s;
+					-moz-animation-timing-function: ease;
+					-moz-animation-delay: 2s;
+					-moz-animation-iteration-count: infinite;
+					-moz-animation-direction: alternate;
+					-moz-animation-play-state: running;
+					/* Safari and Chrome: */
+					-webkit-animation-name: myfirst;
+					-webkit-animation-duration: 5s;
+					-webkit-animation-timing-function: ease;
+					-webkit-animation-delay: 2s;
+					-webkit-animation-iteration-count: infinite;
+					-webkit-animation-direction: alternate;
+					-webkit-animation-play-state: running;
+					/* Opera: */
+					-o-animation-name: myfirst;
+					-o-animation-duration: 5s;
+					-o-animation-timing-function: ease;
+					-o-animation-delay: 2s;
+					-o-animation-iteration-count: infinite;
+					-o-animation-direction: alternate;
+					-o-animation-play-state: running;
+
+				}
+
+
+
+
+
+				@keyframes myfirst
+				{
+					0%   {background: red; left:0px; top:0px;}
+					25%  {background: yellow; left:200px; top:0px;}
+					50%  {background: blue; left:200px; top:200px;}
+					75%  {background: green; left:0px; top:200px;}
+					100% {background: red; left:0px; top:0px;}
+				}
+
+				@-moz-keyframes myfirst /* Firefox */
+				{
+					0%   {background: red; left:0px; top:0px;}
+					25%  {background: yellow; left:200px; top:0px;}
+					50%  {background: blue; left:200px; top:200px;}
+					75%  {background: green; left:0px; top:200px;}
+					100% {background: red; left:0px; top:0px;}
+				}
+
+				@-webkit-keyframes myfirst /* Safari and Chrome */
+				{
+					0%   {background: red; left:0px; top:0px;}
+					25%  {background: yellow; left:200px; top:0px;}
+					50%  {background: blue; left:200px; top:200px;}
+					75%  {background: green; left:0px; top:200px;}
+					100% {background: red; left:0px; top:0px;}
+				}
+
+				@-o-keyframes myfirst /* Opera */
+				{
+					0%   {background: red; left:0px; top:0px;}
+					25%  {background: yellow; left:200px; top:0px;}
+					50%  {background: blue; left:200px; top:200px;}
+					75%  {background: green; left:0px; top:200px;}
+					100% {background: red; left:0px; top:0px;}
+				}
+
+
+
+
+
+		/* réglage de la page en mode portrait ou paysage */
+				.ClasseReglagePage1{
+
+					/* size : réglage de la page d'impression.  */ 
+					size: auto ;
+					size: portrait ;
+					size: landscape ;
+
+
+					/* orphans : evite les lignes seules en début de page en indiquant le nombre minimum sur une page.  */ 
+					orphans: 3 ;
+
+
+					/* widows : evite les lignes seules en fin de page en indiquant le nombre minimum de ligne.  */ 
+					widows: 3 ;
+
+
+					/* page-break-before, page-break-after : force un saut de ligne avant ou après un objet.  */ 
+					page-break-after: auto ;
+					page-break-before: always ; /* saut de page à faire */
+					page-break-before: avoid ; /* saut de page à éviter */
+
+				}
+
+
+		*/
+
